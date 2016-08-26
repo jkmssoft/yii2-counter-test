@@ -1,0 +1,38 @@
+{
+    "name": "jkmssoft/yii2-counter",
+    "description": "Count things.",
+    "type": "yii2-extension",
+    "keywords": ["yii2", "extension", "counter", "jkmssoft"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "jkmssoft",
+            "email": "jkmssoft@users.noreply.github.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "yiisoft/yii2": "~2.0",
+        "yiisoft/yii2-bootstrap": "~2.0"
+    },
+    "require-dev": {
+        "yiisoft/yii2-codeception": "~2.0",
+        "codeception/specify": "*",
+        "codeception/verify": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "jkmssoft\\counter\\": ""
+        }
+    },
+    "extra": {
+        "bootstrap": "jkmssoft\\counter\\Bootstrap",
+        "branch-alias": {
+            "dev-master": "0.0.x-dev"
+        },
+        "asset-installer-paths": {
+            "npm-asset-library": "vendor/npm",
+            "bower-asset-library": "vendor/bower"
+        }
+    }
+}
